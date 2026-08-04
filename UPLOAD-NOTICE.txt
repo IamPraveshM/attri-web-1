@@ -1,0 +1,10 @@
+ATTRI ASSOCIATES COMPLETE SOURCE PACKAGE
+
+This ZIP is a complete source-code backup, not a public_html-ready PHP package.
+
+For the currently working full platform, configure the Hostinger DNS records in
+HOSTINGER-DEPLOYMENT.md. Extracting the source into public_html will not start the
+Cloudflare Worker, D1 database, R2 storage, or platform authentication.
+
+No passwords, API keys, OTP codes, database contents, or private environment
+variables are included in this package.
