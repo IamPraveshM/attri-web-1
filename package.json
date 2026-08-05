@@ -8,7 +8,7 @@
   "scripts": {
     "install:ci": "bash scripts/install-ci.sh",
     "dev": "node node_modules/vite/bin/vite.js",
-    "build": "bash scripts/build-verified.sh",
+    "build": "npm install --include=dev --no-audit --no-fund && bash scripts/build-verified.sh",
     "start": "node node_modules/vinext/dist/cli.js start",
     "test": "npm run build && node --test tests/rendered-html.test.mjs",
     "validate:artifact": "bash scripts/validate-artifact.sh",

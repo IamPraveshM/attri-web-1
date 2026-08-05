@@ -12,3 +12,4 @@ Port 5175 is in use, trying another one...
 [2m8:58:28 am[22m [36m[1m[vite][22m[39m [32m.env.local changed, restarting server...[39m
 Using secrets defined in .env.local
 [2m8:58:45 am[22m [36m[1m[vite][22m[39m server restarted.
+[2m9:00:52 am[22m [36m[1m[vite][22m[39m [34m[2m(rsc)[22m[39m [32mhmr update [39m[2m/app/globals.css[22m
