@@ -8,7 +8,7 @@
   "scripts": {
     "install:ci": "bash scripts/install-ci.sh",
     "dev": "node node_modules/vite/bin/vite.js",
-    "build": "npm install --include=dev --no-audit --no-fund && vinext build && node scripts/prepare-hostinger.mjs",
+    "build": "npm run build:hostinger",
     "build:hostinger": "npm install --include=dev --no-audit --no-fund && vinext build && node scripts/prepare-hostinger.mjs",
     "start": "node server.js",
     "start:hostinger": "npm run start",
