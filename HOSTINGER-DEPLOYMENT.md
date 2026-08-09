@@ -77,6 +77,18 @@ npm run start:hostinger
 
 5. This app still requires a compatible database/storage backend and cannot be deployed as static HTML.
 
+## Hostinger Next.js preset
+
+If you choose `Framework preset = Next.js` in Hostinger, use these values:
+
+- Build command: `npm run build`
+- Start command: `npm run start`
+- Package manager: `npm`
+- Output directory: leave blank or `.next` if required
+- Entry file: usually not needed for Next.js preset
+
+This repository now supports standard Next.js build and start behavior via `next build` and `next start`.
+
 ## Hostinger VPS migration
 
 A true Hostinger VPS deployment requires a separate migration project before launch:
